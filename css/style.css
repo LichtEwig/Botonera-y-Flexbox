@@ -1,0 +1,99 @@
+body{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+ul {
+  list-style: none;
+  padding:20px;
+  background-color: rgb(193, 157, 235);
+  font-size:0 /* truco por el uso de inline-block*/
+    }
+li {
+    display: inline-block;
+    width: 25%;
+    position: relative;
+    font-size: 20px;
+    }
+ul ul {
+    position: absolute;
+    display: none;
+    }
+ul ul {
+   position: absolute;
+   display: none;
+   }
+
+ul ul li {
+    display: block;
+    }
+
+li:hover{
+    color: rgb(170, 170, 170);
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:#e74963;
+}
+
+ul li:hover ul {
+    display:block;
+    background-color: pink;
+}
+
+/*Flexbox*/
+*{
+    margin: 20;
+    padding: 20;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: rgb(230, 132, 153);
+    width: 1300px;
+    height: 1200px;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.color{
+    width: 20%;
+    height: 45vh;
+    margin: 1rem;
+}
+
+.azul{
+    background-color: rgb(255, 253, 253);
+    
+}
+
+.verde{
+    background-color: rgb(255, 255, 255);
+}
+
+.rojo{
+    background-color: rgb(255, 255, 255);
+}
+.amarillo{
+    background-color: rgb(255, 255, 255);
+}
+
+.fucsia{
+    background-color: rgb(255, 255, 255);
+}
+
+.gris{
+    background-color: rgb(255, 255, 255);
+}
+
+.violeta{
+    background-color: rgb(255, 255, 255);
+}
+
+.aqua{
+    background-color: rgb(255, 255, 255);
+}
